@@ -1,0 +1,79 @@
+{% extends 'base1.html' %}
+
+{% load static %}
+
+{% block header %}
+  <header class="civ text-center text-white">
+    <div class="">
+      <div class="container">
+        <h1 class="mb-0">Derecho civil y comercial</h1>
+        <h2 class="ng mb-0">Estudio jurídico Ferrari-Mundet</h2>
+        
+      </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+  </header>
+{% endblock header %}
+
+{% block content %}
+
+
+ <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="{% static 'img/firma.jpg' %}" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Civil Y Comercial</h2>
+            <p>Información principal relacionada a Civil y Comercial</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="{% static 'img/balanza.png' %}" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">Opcional informacion CYC</h2>
+            <p>Info secundaria CYC</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="{% static 'img/Trato.png' %}" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Opcional 2</h2>
+            <p>Informacion  secundaria CYC</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+{% endblock content %}

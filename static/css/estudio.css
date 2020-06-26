@@ -1,0 +1,92 @@
+html{
+    min-height: 100%;
+    position: relative;
+  
+  } 
+  body {
+    font-family: 'Lato';
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Catamaran';
+    font-weight: 100%    !important;
+  }
+
+  .bg-black {
+    background-color: #000 !important;
+  }
+  
+  header.civ {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 13rem;
+    background-image: url("../img/fondo3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    border-image-width: auto;
+
+  }
+  header.lab {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 13rem;
+    background-image: url("../img/Laboral.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    border-image-width: auto;
+
+  }
+
+
+  header.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 13rem;
+    background-image: url("../img/acuerdo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    border-image-width: auto;
+
+  }
+  header.masthead .masthead-content {
+    z-index: 1;
+    position: relative;
+  }
+
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem;
+  }
+  
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem;
+  }
+  
+  /* para variar el grado de opacidad de los elmentos*/
+  .opacity{
+    background-color:rgb(173,144,144);
+    opacity:0.5; /* Opacidad 60% */
+    width:300px;
+    height:100px;
+  }
+  p.color{
+    
+    font: icon
+  }
+  /* .logo-face{
+    background-image:url("../img/facebook.png");
+
+  } */
